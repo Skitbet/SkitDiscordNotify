@@ -1,0 +1,45 @@
+# URL of your Discord webhook (channel -> Edit Channel -> Integrations -> Webhooks -> Create)
+webhook-url: ""
+
+# Configure each type of server status message below
+events:
+
+  # Sent when the server starts
+  server-start:
+    enabled: true                 # Should this message be sent?
+    embed: true                   # Should this message use an embed?
+    message: "🟢 The server has started!"  # Plain text fallback or use when embed = false
+    embed-data:
+      title: "🟢 Server Started"           # Embed title
+      description: "The Minecraft server is now online."  # Embed description
+      color: 65280                        # Embed color (decimal format)
+
+  # Sent when the server stops
+  server-stop:
+    enabled: true
+    embed: true
+    message: "🔴 The server has stopped!"
+    embed-data:
+      title: "🔴 Server Stopped"
+      description: "The Minecraft server is shutting down."
+      color: 16711680
+
+  # Sent when a player joins
+  player-join:
+    enabled: true
+    embed: true
+    message: "👤 %player% joined the server."  # %player% will be replaced with the player name
+    embed-data:
+      title: "👤 Player Joined"
+      description: "**%player%** joined the server."
+      color: 3447003
+
+  # Sent when a player leaves
+  player-leave:
+    enabled: true
+    embed: true
+    message: "🚪 %player% left the server."
+    embed-data:
+      title: "🚪 Player Left"
+      description: "**%player%** left the server."
+      color: 15844367
