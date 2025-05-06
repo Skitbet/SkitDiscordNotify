@@ -4,3 +4,7 @@ main: gay.skitbet.skitDiscordNotify.SkitDiscordNotify
 api-version: '1.21'
 authors: [ Skitbet ]
 description: Send Minecraft Server status updates to your Discord server via webhooks!
+commands:
+  discordnotify:
+    description: Discord Webhook Status commands
+    usage: /<command> <subcommand>
