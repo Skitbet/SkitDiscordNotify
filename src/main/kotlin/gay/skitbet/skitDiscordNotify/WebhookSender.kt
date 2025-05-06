@@ -7,7 +7,7 @@ import java.net.URL
 
 class WebhookSender(private val plugin: JavaPlugin) {
 
-    private val webhookUrl = plugin.config.getString("webhook-uri") ?: ""
+    private val webhookUrl = plugin.config.getString("webhook-url") ?: ""
 
     fun send(eventKey: String, playerName: String? = null) {
         // if webhook is not configured then dont send lets not do anyhting
