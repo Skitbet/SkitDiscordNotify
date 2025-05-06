@@ -1,4 +1,4 @@
-package gay.skitbet.skitDiscordNotify.placeholder
+package gay.skitbet.skitdiscordnotify.placeholder
 
 import me.clip.placeholderapi.PlaceholderAPI
 import org.bukkit.Bukkit

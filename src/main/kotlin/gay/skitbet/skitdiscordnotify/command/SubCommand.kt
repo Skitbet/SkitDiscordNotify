@@ -1,4 +1,4 @@
-package gay.skitbet.skitDiscordNotify.command
+package gay.skitbet.skitdiscordnotify.command
 
 import org.bukkit.command.CommandSender
 

@@ -1,6 +1,6 @@
-package gay.skitbet.skitDiscordNotify.command.sub
+package gay.skitbet.skitdiscordnotify.command.sub
 
-import gay.skitbet.skitDiscordNotify.command.SubCommand
+import gay.skitbet.skitdiscordnotify.command.SubCommand
 import org.bukkit.command.CommandSender
 
 class HelpCommand(private val registeredCommands: List<SubCommand>) : SubCommand {

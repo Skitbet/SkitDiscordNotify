@@ -1,6 +1,6 @@
-package gay.skitbet.skitDiscordNotify.config
+package gay.skitbet.skitdiscordnotify.config
 
-import gay.skitbet.skitDiscordNotify.util.EmbedData
+import gay.skitbet.skitdiscordnotify.config.EmbedData
 
 data class WebhookEventConfig(
     val enabled: Boolean,

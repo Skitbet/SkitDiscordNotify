@@ -1,4 +1,4 @@
-package gay.skitbet.skitDiscordNotify.util
+package gay.skitbet.skitdiscordnotify.config
 
 data class EmbedData(
     val title: String?,

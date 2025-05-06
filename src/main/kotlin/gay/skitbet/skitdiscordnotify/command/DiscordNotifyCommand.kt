@@ -1,7 +1,7 @@
-package gay.skitbet.skitDiscordNotify.command
+package gay.skitbet.skitdiscordnotify.command
 
-import gay.skitbet.skitDiscordNotify.command.sub.HelpCommand
-import gay.skitbet.skitDiscordNotify.command.sub.ReloadCommand
+import gay.skitbet.skitdiscordnotify.command.sub.HelpCommand
+import gay.skitbet.skitdiscordnotify.command.sub.ReloadCommand
 import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
