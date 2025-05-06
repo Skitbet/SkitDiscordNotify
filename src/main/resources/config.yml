@@ -43,3 +43,13 @@ events:
       title: "🚪 Player Left"
       description: "**%player%** left the server."
       color: 15844367
+
+  # Sent when a player dies
+  player-death:
+    enabled: true
+    embed: true
+    message: "💀 %player% died."
+    embed-data:
+      title: "💀 Player Died"
+      description: "**%player%** has unfortunately died."
+      color: 3607046

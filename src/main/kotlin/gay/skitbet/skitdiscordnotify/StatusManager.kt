@@ -48,10 +48,13 @@ object StatusManager {
                 plugin.logger.warning("Missing `embed-data` section for: ${eventKey.configKey}")
                 return
             }
+
+            // TODO: not create the whole object every send lol
             val title = embedSection.getString("title")?.replace("%player%", playerName ?: "") ?: "Status"
             val desc = embedSection.getString("description")?.replace("%player%", playerName ?: "") ?: message
             val color = embedSection.getInt("color", 3447003)
 
+            // create json embed data
             val embedJson = JSONObject()
                 .put("title", title)
                 .put("description", desc)
@@ -74,6 +77,7 @@ object StatusManager {
 
             OutputStreamWriter(connection.outputStream).use { it.write(payload) }
 
+            // handle networking errors
             val responseCode = connection.responseCode
             if (responseCode !in 200..299) {
                 val error = connection.errorStream?.bufferedReader()?.readText()
