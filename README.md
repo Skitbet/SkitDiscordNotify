@@ -1,4 +1,4 @@
-# 🌐 SkitDiscordNotify
+# 🌐 SkitDiscordNotify https://modrinth.com/plugin/skitdiscordnotify
 A simple but handy plugin that sends your Minecraft server’s status updates to a Discord channel using webhooks. Whether you're running a private server or hosting for a community, this helps keep your players or staff in the loop without needing to check the console.
 ---
 ## 🔧 What It Does
